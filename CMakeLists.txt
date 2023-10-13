@@ -38,6 +38,8 @@ else()
     else()
         add_executable(paint-qt
             ${PROJECT_SOURCES}
+            paint.h
+            paint.cpp
         )
     endif()
 endif()
